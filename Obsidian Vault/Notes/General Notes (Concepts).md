@@ -1,0 +1,10 @@
+- When we say that a training distribution follows a random variable $X$, what we mean is that from the POV of the model, our training data is essentially following a probability distribution. If we had 3 words in our corpus, and each of them has an equal chance of occurring in our training data, then our training set is essentially 3 samples of $X$. 
+- **Double Descent**: ![[Pasted image 20260810180628.png]]
+	A phenomenon whereby test loss initially decreases with amount of parameters, then shoots up again, and then descends again. Usually happens when there is a singular parameter per data point. Essentially at that point, the actual training data that you give it varies the curve heavily, so test loss increases at that point.
+	![[Pasted image 20260810181017.png]]
+- Mechanism Design: Refers to designing rules, incentives, and the environment itself in order to facilitate desired outcomes. Kind of the opposite of game theory, where in game theory, we are given the rules of the environment, and we ask what the most beneficial outcome is, in mechanism design, we know the most beneficial outcome, and we ask how to design the rules around it.
+- If $\Omega$ is a finite set of states $\Omega = \{w_1, w_2...\}$, then $\Delta(\Omega)$ is the set of all probability distributions over $\Omega$, so $p \in \Delta(\Omega)$ would be something like $p(w_1) = 0.3, p(w_2) = 0.2, ...$ and so on.
+- An anchor is a fixed reference point that something is evaluated against.
+- A mixed motive game is one in which players are neither purely competing or purely cooperating, as they do not share strictly common goals.
+- KV-Cache: When computing attention, an autoregressive model maximizes the probability of the next token given the previous tokens. To do this, we must perform self attention across all of the previous tokens. The KV cache caches the keys and value vectors for all previous tokens so that these do not have to be recalculated when computing a new one.![[Pasted image 20261019120306.png]]
+- Cross Attention: Allows decoder to use relevant information from the encoder, by using decoder queries with the encoder KV cache.

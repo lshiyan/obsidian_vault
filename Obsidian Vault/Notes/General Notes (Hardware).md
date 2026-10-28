@@ -1,0 +1,1 @@
+- A CPU core is a processing unit that a computer can schedule a thread on. A thread is an execution stream that is scheduled on a core. Multi-core CPUs allow for multiple threads to be scheduled in parallel compared to a single-core CPU, allowing for parallel computation.

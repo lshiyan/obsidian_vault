@@ -1,0 +1,4 @@
+https://arxiv.org/pdf/2501.00226
+
+- EmCom is the field that studies emergent communication in artificial agents, and the extent to which it is similar to human behaviour.
+- A foundational idea in this field is the Lewis signaling. Given a sender $S_{\phi}(m|x)$ and a receiver $R_{\theta}(x|m)$, the sender generates messages according to an observation $x$, and the receiver predicts observations according to a message $m$. The objective function that they are trained to maximize is $J_{\mathrm{MI}}(\phi, \theta) := \mathbb{E}_{p(x),\,S_{\phi}(m \mid x)} \left[ \log R_{\theta}(x \mid m) \right]$.

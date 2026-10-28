@@ -1,0 +1,6 @@
+https://arxiv.org/pdf/2608.25152
+
+- MAIN IDEA: Belief changes are multi-faceted, and rely on many things other than the agents themselves.
+- Simulations create an embedded graph of LLM agents running for a fixed number of rounds. Each simulations has persuaders and persuadees (PR / PE), and belief of agent $i$ is measured as a scalar value at time $t$ $b_{i,t} \in \left[0,1\right]$. In singlePR, one PR advocates for a statement with belief 1.0, while in dualPR, one PR advocates at belief 1.0, and the other at belief 0.0, with beliefs anchored to the affirmative position. Initial beliefs for the PEs are calculated through the PPR algorithm.
+- Each PE has a feed that is constructed from their neighbors, and an action schema consists of nine actions derived from social media actions. In every round, the PR acts, then the PEs act on the snapshot of the feed from the start of the round, PE beliefs are measured, and then logging occurs.
+- The belief probe is a 7-point multiple choice evaluated using the token probs of each option. So the $P(agree)$ is directly measured. The resulting belief for the probs $p_1 \dots p_7$ is $E(p_i)$.

@@ -1,0 +1,7 @@
+https://arxiv.org/pdf/1503.02531
+
+- MAIN IDEA: We can use the output distribution of large models as soft targets for smaller models, essentially granting the smaller model the knowledge in the larger one.
+- Training models need to capture a large amount of information from a dataset, but deployment models do not need to hold all the same information due to latency concerns.
+- Distillation is the process of extracting the knowledge of a singular large model, or an ensemble of models, into a much smaller model for deployment.
+- One way of doing this distillation is by using the output of a larger model as a soft target for the smaller model. This way, we do not think of the information as being held in the parameters of the larger model, but we think of the model itself as a mapping from input to output vectors.
+- On tasks like MNIST where the output distribution is often of very low entropy, information resides in the ratios between classes, rather than the actual probabilities, since they are all very low. The paper uses a method where the large model is softmaxed using a very high temperature parameter, and the small model is trained on the soft targets produced by the large model.

@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "258eb77a5d7bec7d",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a55fdf6774ade80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd7401c00f6c078e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1f552ec2a74e92bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "b49159c3b4d719b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1476fa2156de56f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f920a637388fdcbf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c974344ea71ffff4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 280.16668701171875
+  },
+  "right": {
+    "id": "ad618e6651c77338",
+    "type": "split",
+    "children": [
+      {
+        "id": "f90a43abc21e59de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8dd5c94b3ad59de7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "General Literature/LLMs/Latent Knowledge in LLMs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "8e76c01091fc89d2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Codebase.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Codebase"
+            }
+          },
+          {
+            "id": "abfdd1d8be8a478e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bb166873a94bf1cc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "17d48e9915423630",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "fd7401c00f6c078e",
+  "lastOpenFiles": [
+    "Marketplace/Lit Review.md",
+    "Notes/General Notes (Datasets).md",
+    "General Literature/Multi-Agent/MAGIC MARL.md",
+    "General Literature/Multi-Agent/Causal Influence Based Cooperative MARL.md",
+    "General Literature/Multi-Agent/⭐ Agent Action Counterfactuals.md",
+    "General Literature/Multi-Agent/Belief Cascades in LLM Networks.md",
+    "General Literature/Multi-Agent/Belief Engine.md",
+    "General Literature/Multi-Agent/Credit Assignment in MAS.md",
+    "General Literature/Agents/Prosocial Agents.md",
+    "General Literature/Agents/Five W's of MA Communciation (Continuing).md",
+    "General Literature/Agents/Mem0, Agents with Scalable Long-Term Memory.md",
+    "General Literature/Agents/Narrative Lock-In.md",
+    "General Literature/Agents/Procedure Graphs.md",
+    "General Literature/Agents/PrimeAgent, A Self-Improving RLM Harness.md",
+    "General Literature/RL/⭐Social Influence as Intrinsic Motivation in MARL (Reading Group Sep, 16, 2026).md",
+    "Marketplace/Model Costs and Experiments.md",
+    "Marketplace/Codebase.md",
+    "Marketplace/Untitled.canvas",
+    "Costs.md",
+    "General Literature/Multi-Agent/Decrypto Benchmark for ToM.md",
+    "Notes/General Notes (Funding).md",
+    "General Literature/Multi-Agent/Mental Models for MAS.md",
+    "General Literature/LLMs/Persuasion RL in LLMs.md",
+    "General Literature/LLMs/LLM Beliefs.md",
+    "Pasted image 20260721115742.png",
+    "General Literature/RL/Asynchronous RL (Important).md",
+    "Pasted image 20260930200825.png",
+    "General Literature/Machine Learning/Distillation (Important).md",
+    "General Literature/LLMs/LLM Memorization.md",
+    "Pasted image 20260923144152.png",
+    "General Literature/Multi-Agent",
+    "Pasted image 20260630104722.png",
+    "Pasted image 20260914132600.png",
+    "Pasted image 20260913132529.png",
+    "Pasted image 20260913131847.png",
+    "Pasted image 20260913131213.png",
+    "Pasted image 20260913125711.png",
+    "Pasted image 20260912222333.png",
+    "Talks",
+    "General Literature/RL",
+    "Notes",
+    "General Literature/Machine Learning",
+    "General Literature/LLMs",
+    "General Literature/Agents",
+    "General Literature",
+    "Marketplace"
+  ]
+}

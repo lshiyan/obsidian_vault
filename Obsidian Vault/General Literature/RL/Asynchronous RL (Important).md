@@ -1,0 +1,7 @@
+https://arxiv.org/pdf/1602.01783
+
+- MAIN IDEA: Using asynchronous methods for deep reinforcement learning lowers the training cost associated with heavy online computation with singular agents, and allows for on-policy methods that are not available with traditional experience replay.
+- Traditional neural networks train better when their examples are i.i.d. This is due to the fact that networks are essentially trying to learn a distribution of data. If your data distribution is consistently changing, i.e. you have a changing action policy in the case of RL, then you do not have a stationary target in order to optimize your network for, instead it is constantly 'chasing' the changing distribution.
+- Experience replay methods help this non-stationary problem, but at the same time requires more computation and forces off policy learning algorithms.
+- This paper introduces an asynchronous learning paradigm for deep RL, using multiple parallel agent executions on multiple environment instances. This approach can run on a multi-core CPU instead of a GPU, saving significant training resources.
+- Different actor-learners are explicitly told to use different exploration policies in order to maximize their diversity and explore different parts of the environment. This causes the online parallel updated to be less temporally correlated than a singular agent applying online updates. This serves as a substitute for the stabilizing effect of experience replay.

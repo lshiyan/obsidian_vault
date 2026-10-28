@@ -1,0 +1,3 @@
+- Value of specific types of explorations depends on priors that an agent has.
+- No prior definition of value of information in MDP problems.
+- Bayesian Adaptive MDP: Assume unknown MDP, do not know reward function, or transition function. Prior over possible MDPs. BAMDP state is current state and cumulative history. Reward function is expectation over MDP conditioned on history. Value of a state is expected return from state, with experience h.

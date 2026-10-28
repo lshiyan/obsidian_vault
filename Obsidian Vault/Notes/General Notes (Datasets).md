@@ -1,0 +1,2 @@
+- https://arcprize.org/arc-agi: (Abstraction and Reasoning Corpus for AGI) A benchmark for skill-acquisition efficiency, essentially how fast a model can learn new skills.
+- https://github.com/facebookresearch/decrypto/: (Decrypto) Strategic game similar to codewords for agentic ToM.
